@@ -30,10 +30,11 @@ import img29 from "../img/29.jpg";
 import img30 from "../img/30.jpg";
 
 
-export const nft_datas = [
+export const nft_data = [
 
     {
         id: "01",
+        title: "Happy Pig",
         imgUrl: img01,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -60,6 +61,7 @@ export const nft_datas = [
 
     {
         id: "02",
+        title: "Happy Pig",
         imgUrl: img02,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -86,6 +88,7 @@ export const nft_datas = [
 
     {
         id: "03",
+        title: "Happy Pig",
         imgUrl: img03,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -112,6 +115,7 @@ export const nft_datas = [
 
     {
         id: "04",
+        title: "Happy Pig",
         imgUrl: img04,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -138,6 +142,7 @@ export const nft_datas = [
 
     {
         id: "05",
+        title: "Happy Pig",
         imgUrl: img05,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -164,6 +169,7 @@ export const nft_datas = [
 
     {
         id: "06",
+        title: "Happy Pig",
         imgUrl: img06,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -190,6 +196,7 @@ export const nft_datas = [
 
     {
         id: "07",
+        title: "Happy Pig",
         imgUrl: img07,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -216,6 +223,7 @@ export const nft_datas = [
 
     {
         id: "08",
+        title: "Happy Pig",
         imgUrl: img08,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -242,6 +250,7 @@ export const nft_datas = [
 
     {
         id: "09",
+        title: "Happy Pig",
         imgUrl: img09,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -268,6 +277,7 @@ export const nft_datas = [
 
     {
         id: "10",
+        title: "Happy Pig",
         imgUrl: img10,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -294,6 +304,7 @@ export const nft_datas = [
 
     {
         id: "11",
+        title: "Happy Pig",
         imgUrl: img11,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -320,6 +331,7 @@ export const nft_datas = [
 
     {
         id: "12",
+        title: "Happy Pig",
         imgUrl: img12,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -346,6 +358,7 @@ export const nft_datas = [
 
     {
         id: "13",
+        title: "Happy Pig",
         imgUrl: img13,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -372,6 +385,7 @@ export const nft_datas = [
 
     {
         id: "14",
+        title: "Happy Pig",
         imgUrl: img14,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -398,6 +412,7 @@ export const nft_datas = [
 
     {
         id: "15",
+        title: "Happy Pig",
         imgUrl: img15,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -424,6 +439,7 @@ export const nft_datas = [
 
     {
         id: "16",
+        title: "Happy Pig",
         imgUrl: img16,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -450,6 +466,7 @@ export const nft_datas = [
 
     {
         id: "17",
+        title: "Happy Pig",
         imgUrl: img17,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -476,6 +493,7 @@ export const nft_datas = [
 
     {
         id: "18",
+        title: "Happy Pig",
         imgUrl: img18,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -502,6 +520,7 @@ export const nft_datas = [
 
     {
         id: "19",
+        title: "Happy Pig",
         imgUrl: img19,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -528,6 +547,7 @@ export const nft_datas = [
 
     {
         id: "20",
+        title: "Happy Pig",
         imgUrl: img20,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -554,6 +574,7 @@ export const nft_datas = [
 
     {
         id: "21",
+        title: "Happy Pig",
         imgUrl: img21,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -580,6 +601,7 @@ export const nft_datas = [
 
     {
         id: "22",
+        title: "Happy Pig",
         imgUrl: img22,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -606,6 +628,7 @@ export const nft_datas = [
 
     {
         id: "23",
+        title: "Happy Pig",
         imgUrl: img23,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -632,6 +655,7 @@ export const nft_datas = [
 
     {
         id: "24",
+        title: "Happy Pig",
         imgUrl: img24,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -658,6 +682,7 @@ export const nft_datas = [
 
     {
         id: "25",
+        title: "Happy Pig",
         imgUrl: img25,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -684,6 +709,7 @@ export const nft_datas = [
 
     {
         id: "26",
+        title: "Happy Pig",
         imgUrl: img26,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -710,6 +736,7 @@ export const nft_datas = [
 
     {
         id: "27",
+        title: "Happy Pig",
         imgUrl: img27,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -736,6 +763,7 @@ export const nft_datas = [
 
     {
         id: "28",
+        title: "Happy Pig",
         imgUrl: img28,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -762,6 +790,7 @@ export const nft_datas = [
 
     {
         id: "29",
+        title: "Happy Pig",
         imgUrl: img29,
         creator: "Crazy Lion Team",
         price: 0.013,
@@ -788,6 +817,7 @@ export const nft_datas = [
 
     {
         id: "30",
+        title: "Happy Pig",
         imgUrl: img30,
         creator: "Crazy Lion Team",
         price: 0.013,
