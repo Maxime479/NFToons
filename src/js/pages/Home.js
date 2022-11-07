@@ -5,6 +5,7 @@ import React, {useState} from "react";
 import NftCard from "../components/NftCard";
 import lion_logo from "../../assets/lazy_lion_base.png";
 import connectWallet from "../functions/connectWallet";
+import Header from "../components/Header";
 
 
 export default function Home({...props}) {
@@ -17,25 +18,8 @@ export default function Home({...props}) {
 
     return (
         <div className="Home">
-            <header className="Home-header">
 
-                <div className="header_left">
-                    <img src={lion_logo} alt="lion logo" className="header_image"/>
-
-
-                    <p className="header_title">
-                        NF<span>Toons</span>
-                    </p>
-
-                </div>
-
-                <button
-                    onClick={() => connectWallet()}
-                    className="connect_wallet_btn"
-                >
-                    Connecter le Wallet
-                </button>
-            </header>
+            <Header/>
 
             <main>
 
