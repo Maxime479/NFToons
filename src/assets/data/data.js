@@ -62,7 +62,7 @@ export const nft_data = [
 
     {
         id: "02",
-        title: "Happy Pig",
+        title: "Shocked Rat",
         imgUrl: img02,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -90,7 +90,7 @@ export const nft_data = [
 
     {
         id: "03",
-        title: "Happy Pig",
+        title: "Angry Zebra",
         imgUrl: img03,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -118,7 +118,7 @@ export const nft_data = [
 
     {
         id: "04",
-        title: "Happy Pig",
+        title: "Silly Donkey",
         imgUrl: img04,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -146,7 +146,7 @@ export const nft_data = [
 
     {
         id: "05",
-        title: "Happy Pig",
+        title: "Happy Ram",
         imgUrl: img05,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -174,7 +174,7 @@ export const nft_data = [
 
     {
         id: "06",
-        title: "Happy Pig",
+        title: "Scary Rat",
         imgUrl: img06,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -202,7 +202,7 @@ export const nft_data = [
 
     {
         id: "07",
-        title: "Happy Pig",
+        title: "Angry Zebra",
         imgUrl: img07,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -230,7 +230,7 @@ export const nft_data = [
 
     {
         id: "08",
-        title: "Happy Pig",
+        title: "Silly Rat",
         imgUrl: img08,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -258,7 +258,7 @@ export const nft_data = [
 
     {
         id: "09",
-        title: "Happy Pig",
+        title: "Happy Lion",
         imgUrl: img09,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -286,7 +286,7 @@ export const nft_data = [
 
     {
         id: "10",
-        title: "Happy Pig",
+        title: "Shocked Ram",
         imgUrl: img10,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -314,7 +314,7 @@ export const nft_data = [
 
     {
         id: "11",
-        title: "Happy Pig",
+        title: "Scary Ram",
         imgUrl: img11,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -342,7 +342,7 @@ export const nft_data = [
 
     {
         id: "12",
-        title: "Happy Pig",
+        title: "Happy Lion",
         imgUrl: img12,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -370,7 +370,7 @@ export const nft_data = [
 
     {
         id: "13",
-        title: "Happy Pig",
+        title: "Shocked Donkey",
         imgUrl: img13,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -398,7 +398,7 @@ export const nft_data = [
 
     {
         id: "14",
-        title: "Happy Pig",
+        title: "Happy Rat",
         imgUrl: img14,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -426,7 +426,7 @@ export const nft_data = [
 
     {
         id: "15",
-        title: "Happy Pig",
+        title: "Scary Rat",
         imgUrl: img15,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -454,7 +454,7 @@ export const nft_data = [
 
     {
         id: "16",
-        title: "Happy Pig",
+        title: "Happy Donkey",
         imgUrl: img16,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -482,7 +482,7 @@ export const nft_data = [
 
     {
         id: "17",
-        title: "Happy Pig",
+        title: "Silly Donkey",
         imgUrl: img17,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -510,7 +510,7 @@ export const nft_data = [
 
     {
         id: "18",
-        title: "Happy Pig",
+        title: "Shocked Rat",
         imgUrl: img18,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -538,7 +538,7 @@ export const nft_data = [
 
     {
         id: "19",
-        title: "Happy Pig",
+        title: "Shocked Ram",
         imgUrl: img19,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -566,7 +566,7 @@ export const nft_data = [
 
     {
         id: "20",
-        title: "Happy Pig",
+        title: "Silly Zebra",
         imgUrl: img20,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -594,7 +594,7 @@ export const nft_data = [
 
     {
         id: "21",
-        title: "Happy Pig",
+        title: "Angry Ram",
         imgUrl: img21,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -622,7 +622,7 @@ export const nft_data = [
 
     {
         id: "22",
-        title: "Happy Pig",
+        title: "Shocked Pig",
         imgUrl: img22,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -650,7 +650,7 @@ export const nft_data = [
 
     {
         id: "23",
-        title: "Happy Pig",
+        title: "Shocked Zebra",
         imgUrl: img23,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -678,7 +678,7 @@ export const nft_data = [
 
     {
         id: "24",
-        title: "Happy Pig",
+        title: "Shocked Pig",
         imgUrl: img24,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -706,7 +706,7 @@ export const nft_data = [
 
     {
         id: "25",
-        title: "Happy Pig",
+        title: "Silly Zebra",
         imgUrl: img25,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -734,7 +734,7 @@ export const nft_data = [
 
     {
         id: "26",
-        title: "Happy Pig",
+        title: "Suspicious Zebra",
         imgUrl: img26,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -762,7 +762,7 @@ export const nft_data = [
 
     {
         id: "27",
-        title: "Happy Pig",
+        title: "Shocked Rat",
         imgUrl: img27,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -790,7 +790,7 @@ export const nft_data = [
 
     {
         id: "28",
-        title: "Happy Pig",
+        title: "Vicious Feline",
         imgUrl: img28,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -818,7 +818,7 @@ export const nft_data = [
 
     {
         id: "29",
-        title: "Happy Pig",
+        title: "Shocked Zebra",
         imgUrl: img29,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
@@ -846,7 +846,7 @@ export const nft_data = [
 
     {
         id: "30",
-        title: "Happy Pig",
+        title: "Shocked Donkey",
         imgUrl: img30,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
