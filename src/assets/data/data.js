@@ -36,7 +36,7 @@ export const nft_data = [
         id: "01",
         title: "Happy Pig",
         imgUrl: img01,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -63,7 +63,7 @@ export const nft_data = [
         id: "02",
         title: "Happy Pig",
         imgUrl: img02,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -90,7 +90,7 @@ export const nft_data = [
         id: "03",
         title: "Happy Pig",
         imgUrl: img03,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -117,7 +117,7 @@ export const nft_data = [
         id: "04",
         title: "Happy Pig",
         imgUrl: img04,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -144,7 +144,7 @@ export const nft_data = [
         id: "05",
         title: "Happy Pig",
         imgUrl: img05,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -171,7 +171,7 @@ export const nft_data = [
         id: "06",
         title: "Happy Pig",
         imgUrl: img06,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -198,7 +198,7 @@ export const nft_data = [
         id: "07",
         title: "Happy Pig",
         imgUrl: img07,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -225,7 +225,7 @@ export const nft_data = [
         id: "08",
         title: "Happy Pig",
         imgUrl: img08,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -252,7 +252,7 @@ export const nft_data = [
         id: "09",
         title: "Happy Pig",
         imgUrl: img09,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -279,7 +279,7 @@ export const nft_data = [
         id: "10",
         title: "Happy Pig",
         imgUrl: img10,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -306,7 +306,7 @@ export const nft_data = [
         id: "11",
         title: "Happy Pig",
         imgUrl: img11,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -333,7 +333,7 @@ export const nft_data = [
         id: "12",
         title: "Happy Pig",
         imgUrl: img12,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -360,7 +360,7 @@ export const nft_data = [
         id: "13",
         title: "Happy Pig",
         imgUrl: img13,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -387,7 +387,7 @@ export const nft_data = [
         id: "14",
         title: "Happy Pig",
         imgUrl: img14,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -414,7 +414,7 @@ export const nft_data = [
         id: "15",
         title: "Happy Pig",
         imgUrl: img15,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -441,7 +441,7 @@ export const nft_data = [
         id: "16",
         title: "Happy Pig",
         imgUrl: img16,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -468,7 +468,7 @@ export const nft_data = [
         id: "17",
         title: "Happy Pig",
         imgUrl: img17,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -495,7 +495,7 @@ export const nft_data = [
         id: "18",
         title: "Happy Pig",
         imgUrl: img18,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -522,7 +522,7 @@ export const nft_data = [
         id: "19",
         title: "Happy Pig",
         imgUrl: img19,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -549,7 +549,7 @@ export const nft_data = [
         id: "20",
         title: "Happy Pig",
         imgUrl: img20,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -576,7 +576,7 @@ export const nft_data = [
         id: "21",
         title: "Happy Pig",
         imgUrl: img21,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -603,7 +603,7 @@ export const nft_data = [
         id: "22",
         title: "Happy Pig",
         imgUrl: img22,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -630,7 +630,7 @@ export const nft_data = [
         id: "23",
         title: "Happy Pig",
         imgUrl: img23,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -657,7 +657,7 @@ export const nft_data = [
         id: "24",
         title: "Happy Pig",
         imgUrl: img24,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -684,7 +684,7 @@ export const nft_data = [
         id: "25",
         title: "Happy Pig",
         imgUrl: img25,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -711,7 +711,7 @@ export const nft_data = [
         id: "26",
         title: "Happy Pig",
         imgUrl: img26,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -738,7 +738,7 @@ export const nft_data = [
         id: "27",
         title: "Happy Pig",
         imgUrl: img27,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -765,7 +765,7 @@ export const nft_data = [
         id: "28",
         title: "Happy Pig",
         imgUrl: img28,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -792,7 +792,7 @@ export const nft_data = [
         id: "29",
         title: "Happy Pig",
         imgUrl: img29,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -819,7 +819,7 @@ export const nft_data = [
         id: "30",
         title: "Happy Pig",
         imgUrl: img30,
-        creator: "Crazy Lion Team",
+        creator: "Lion Team",
         price: 0.013,
         attributes: [
             {
@@ -845,4 +845,40 @@ export const nft_data = [
 ];
 
 
+// const generateData = () => {
+//
+//     let str = "";
+//
+//     for(var i=10; i<31; i++){
+//
+//         str += `
+//     {
+//         id: "${i}",
+//         title: "Happy Pig",
+//         imgUrl: img${i},
+//         creator: "Lion Team",
+//         price: 0.013,
+//         attributes: [
+//         {
+//             trait_type: "Background",
+//             value: "images"
+//         },
+//         {
+//             trait_type: "Head",
+//             value: "cochon"
+//         },
+//         {
+//             trait_type: "Eyes",
+//             value: "Expression-Cartoon-Eyes-PNG-Transparent-Picture"
+//         },
+//         {
+//             trait_type: "Mouth",
+//             value: "584c6233269a83097a7d04d1"
+//         }
+//     ],
+//     },
+//
+//     `
+//     }
+// }
 
