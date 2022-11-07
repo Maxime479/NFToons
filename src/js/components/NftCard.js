@@ -7,7 +7,7 @@ import buyNft from "../functions/buyNft";
 
 
 const NftCard = (props) => {
-    const { id, title, imgUrl, creator, price, attributes } = props.metadata;
+    const { id, title, imgUrl, creator, description, price, attributes } = props.metadata;
 
 
     return (
