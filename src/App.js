@@ -2,7 +2,7 @@ import logo from './assets/lazy_lion.png';
 import './css/App.css';
 import {Route, Routes, useNavigate} from "react-router-dom";
 import Home from "./js/pages/Home";
-
+import NftDetails from "./js/pages/NftDetails";
 
 
 
@@ -18,8 +18,9 @@ export default function App() {
       <div>
           <div>
               <Routes>
-                  <Route path="/home" element={<Home nav={navigate} />} />
                   <Route path="/" element={<Start nav={navigate} />} />
+                  <Route path="/home" element={<Home nav={navigate} />} />
+                  <Route path="/home/:id" element={<NftDetails />} />
               </Routes>
           </div>
       </div>
