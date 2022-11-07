@@ -53,7 +53,7 @@ function Start({...props}) {
                 />
 
                 <p>
-                    NFToons adventure starts here.
+                    L'aventure NFToons commence ici.
                 </p>
             </header>
         </div>
