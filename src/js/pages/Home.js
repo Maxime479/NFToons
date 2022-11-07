@@ -1,9 +1,10 @@
 
-import '../css/Home.css';
-import {nft_data} from "../assets/data/data.js";
+import '../../css/pages/Home.css';
+import {nft_data} from "../../assets/data/data.js";
 import React, {useState} from "react";
-import NftCard from "./NftCard";
-import lion_logo from "../assets/lazy_lion_base.png";
+import NftCard from "../components/NftCard";
+import lion_logo from "../../assets/lazy_lion_base.png";
+import connectWallet from "../functions/connectWallet";
 
 
 export default function Home({...props}) {
@@ -18,9 +19,22 @@ export default function Home({...props}) {
         <div className="Home">
             <header className="Home-header">
 
-                <p className="header_title">
-                    NF<span>Toons</span>
-                </p>
+                <div className="header_left">
+                    <img src={lion_logo} alt="lion logo" className="header_image"/>
+
+
+                    <p className="header_title">
+                        NF<span>Toons</span>
+                    </p>
+
+                </div>
+
+                <button
+                    onClick={() => connectWallet()}
+                    className="connect_wallet_btn"
+                >
+                    Connecter le Wallet
+                </button>
             </header>
 
             <main>
