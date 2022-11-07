@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../../css/components/NftCard.css";
 import lion_logo from '../../assets/lazy_lion.png';
-import buyNft from "../buyNft";
+import buyNft from "../functions/buyNft";
 
 
 const NftCard = (props) => {
