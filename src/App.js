@@ -1,7 +1,7 @@
 import logo from './assets/lazy_lion.png';
 import './css/App.css';
 import {Route, Routes, useNavigate} from "react-router-dom";
-import Home from "./js/Home";
+import Home from "./js/pages/Home";
 
 
 
