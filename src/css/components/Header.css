@@ -21,6 +21,7 @@ header{
 
 
 .header_left{
+    /*background-color: #a9a9b0;*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -51,8 +52,11 @@ header{
 
 .connect_wallet_btn:hover {
     /*background-color: #2c303b;*/
-    background-color: #f0f0f0;
-    color: #5142fc;
+    /*background-color: #f0f0f0;*/
+    /*color: #5142fc;*/
+    font-weight: 600;
+    box-shadow: 0 0 7px 5px rgba(169, 163, 249, 0.67);
+
 }
 
 
@@ -63,5 +67,24 @@ header{
 .header_title a{
     color: white;
     text-decoration: none;
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .connect_wallet_btn{
+        font-size: 1rem;
+    }
+
+    .header_title a{
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+    }
+
+    .header_image{
+        width: 3em !important;
+    }
+
+
 
 }

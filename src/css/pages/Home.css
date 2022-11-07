@@ -73,5 +73,27 @@ main{
 }
 
 
+@media only screen and (max-width: 992px) {
+    .welcome_message{
+        font-size: 1.2rem;
+    }
+
+    .nft_card_container{
+        max-width: 90%;
+    }
+
+    .upper img{
+        width: 40%;
+        aspect-ratio: 1;
+        border-radius: 20px;
+    }
+
+    .upper{
+        width: 80%;
+    }
+
+}
+
+
 
 

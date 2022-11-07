@@ -10,6 +10,22 @@
     .creator_info p {
         font-size: 0.7rem !important;
     }
+
+    .buy_btn{
+        font-size: 0.9rem !important;
+        border-radius: 8px !important;
+        font-weight: 500 !important;
+        aspect-ratio: 5 !important;
+    }
+
+    .creator_img{
+        margin-right: 0.4rem !important;
+    }
+
+    .nft_card{
+        padding: 13px !important;
+        width: 8.3em !important;
+    }
 }
 
 
@@ -144,8 +160,11 @@
 
 .buy_btn:hover {
     /*background-color: #2c303b;*/
-    background-color: #f0f0f0;
-    color: #5142fc;
+    /*background-color: #f0f0f0;*/
+    /*color: #5142fc;*/
+    font-weight: 600;
+    /*box-shadow: 0 0 7px 5px rgba(81,66,252,0.67);*/
+    box-shadow: 0 0 7px 5px rgba(169, 163, 249, 0.67);
 }
 
 
