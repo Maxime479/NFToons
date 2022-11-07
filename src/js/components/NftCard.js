@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-import "../css/NftCard.css";
-import lion_logo from '../assets/lazy_lion.png';
+import "../../css/components/NftCard.css";
+import lion_logo from '../../assets/lazy_lion.png';
+import buyNft from "../buyNft";
 
 
 const NftCard = (props) => {
@@ -17,7 +18,7 @@ const NftCard = (props) => {
 
             <div className="nft_content">
                 <h5 className="nft_title">
-                    <Link to={`/market/${id}`}>{title}</Link>
+                    <Link to={`/home/${id}`}>{title}</Link>
                 </h5>
 
                 <div className="creator_info_container">
@@ -41,10 +42,10 @@ const NftCard = (props) => {
                 <div className="btn_container">
                     <button
                         className="buy_btn"
+                        onClick={() => buyNft(id, title, imgUrl, creator, price, attributes)}
                     >
                         Acheter
                     </button>
-
 
                 </div>
             </div>
