@@ -1,17 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
 import "../../css/components/NftCard.css";
 import lion_logo from '../../assets/lazy_lion.png';
-import buyNft from "../functions/buyNft";
-import NftDetails from "../pages/Modal";
-import Modal from "../pages/Modal";
+import PopIn from "../PopIn";
 
 
 const NftCard = (props) => {
-    const { id, title, imgUrl, creator, description, price, attributes } = props.metadata;
+    const metadata = props.metadata
+    const { id, title, imgUrl, creator, price} = metadata;
 
-    const [showModal, setShowModal] = React.useState(false);
+    const [showPopIn, setShowPopIn] = useState(false);
+
 
     return (
         <div className="nft_card">
@@ -45,11 +45,12 @@ const NftCard = (props) => {
                 <div className="btn_container">
                     <button
                         className="buy_btn"
-                        onClick={() => setShowModal(true)}
+                        onClick={() => setShowPopIn(true)}
                     >
                         Acheter
                     </button>
-                    {showModal && <Modal setShowModal={setShowModal}  />}
+
+                    {showPopIn && <PopIn setShowPopIn={setShowPopIn} metadata={metadata} />}
 
                 </div>
             </div>
