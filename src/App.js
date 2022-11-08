@@ -2,7 +2,7 @@ import logo from './assets/lazy_lion.png';
 import './css/App.css';
 import {Route, Routes, useNavigate} from "react-router-dom";
 import Home from "./js/pages/Home";
-import NftDetails from "./js/pages/Modal";
+import NftDetails from "./js/pages/NftDetails";
 
 
 

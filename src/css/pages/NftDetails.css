@@ -1,0 +1,138 @@
+
+
+/*@media only screen and (max-width: 576px) {*/
+/*    .single__nft__content h2 {*/
+/*        margin-top: 15px;*/
+/*    }*/
+/*}*/
+
+
+/*//---------------------//*/
+
+.targetNft_img {
+    border-radius: 8px;
+    max-width: 45%;
+    object-fit: cover;
+}
+
+.main_container {
+    /*background-color: #2c303b;*/
+    max-width: 80em;
+    margin: 5em auto;
+    padding: 0 1em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2rem;
+}
+
+.infos_container {
+    /*background-color: #353a47;*/
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+
+.targetNft_buy_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: 20px;
+    background-color: #5142fc;
+    color: #ffffff;
+
+    width: 100%;
+    aspect-ratio: 12;
+
+    border: none;
+    font-size: 1.3rem;
+
+    /*margin-top: 0.2rem;*/
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.targetNft_buy_btn:hover {
+    /*background-color: #B9BECB;*/
+    /*color: #5142fc;*/
+    font-weight: 600;
+    box-shadow: 0 0 7px 5px rgba(169, 163, 249, 0.67);
+}
+
+.infos_container h2{
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.targetNft_description{
+    color: #ffffffc5;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.8rem;
+}
+
+.targetNft_creator {
+    background: #3D4352;
+    padding: 15px;
+    border-radius: 7px;
+    width: 50%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 1rem;
+}
+
+.targetNft_creator_info {
+    /*background-color: #6b6d71;*/
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.targetNft_creator_info p{
+    color: #ffffffc5;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.targetNft_creator_info h6{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .main_container{
+        flex-wrap: wrap;
+    }
+
+    .targetNft_img, .infos_container{
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .targetNft_buy_btn{
+        aspect-ratio: 8;
+        border-radius: 18px;
+    }
+
+    .targetNft_creator{
+        width: 80%;
+    }
+}
