@@ -1,32 +1,3 @@
-@media only screen and (max-width: 992px) {
-    .nft_title {
-        font-size: 0.8rem !important;
-    }
-
-    .creator_info h6 {
-        font-size: 0.6rem !important;
-    }
-
-    .creator_info p {
-        font-size: 0.7rem !important;
-    }
-
-    .buy_btn{
-        font-size: 0.9rem !important;
-        border-radius: 8px !important;
-        font-weight: 500 !important;
-        aspect-ratio: 5 !important;
-    }
-
-    .creator_img{
-        margin-right: 0.4rem !important;
-    }
-
-    .nft_card{
-        padding: 13px !important;
-        width: 8.3em !important;
-    }
-}
 
 
 .nft_card{
@@ -184,4 +155,35 @@
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .nft_title {
+        font-size: 0.8rem !important;
+    }
+
+    .creator_info h6 {
+        font-size: 0.6rem !important;
+    }
+
+    .creator_info p {
+        font-size: 0.7rem !important;
+    }
+
+    .buy_btn{
+        font-size: 0.9rem !important;
+        border-radius: 8px !important;
+        font-weight: 500 !important;
+        aspect-ratio: 5 !important;
+    }
+
+    .creator_img{
+        margin-right: 0.4rem !important;
+    }
+
+    .nft_card{
+        padding: 13px !important;
+        width: 8.3em !important;
+    }
 }
