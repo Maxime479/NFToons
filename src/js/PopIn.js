@@ -1,30 +1,30 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 import "../css/PopIn.css";
 import buyNft from "./functions/buyNft";
 
 const PopIn = ({ setShowPopIn, metadata }) => {
 
-    const {title, imgUrl, price } = metadata;
+    const { title, imgUrl, price, id } = metadata;
 
-    const gasFee = 0.89;
+    const gasFee = 0.01;
 
     const [bgClicked, setBgClicked] = React.useState(false);
     const [popInClicked, setPopInClicked] = React.useState(false);
 
     useEffect(() => {
         if (bgClicked) {
-            if(!popInClicked) {
+            if (!popInClicked) {
                 setBgClicked(false);
                 setShowPopIn(false);
-            }else{
+            } else {
                 setBgClicked(false);
                 setPopInClicked(false);
             }
         }
     })
 
-
+    console.log({ id });
     return (
         <div onClick={() => setBgClicked(true)} className="popin_bg">
 
@@ -68,7 +68,8 @@ const PopIn = ({ setShowPopIn, metadata }) => {
 
                     <button
                         className="buy_btn last_buy_btn"
-                        onClick={() => buyNft(metadata)}
+                        onClick={() => buyNft(gasFee,metadata)}
+                        id={id}
                     >
                         Acheter
                     </button>
