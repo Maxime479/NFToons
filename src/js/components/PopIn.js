@@ -42,9 +42,9 @@ const PopIn = ({ setShowPopIn, metadata }) => {
                 <div className="inner_container">
 
                     <h5>Acheter un NFT</h5>
-                    <p className="info">
+                    <a className="info">
                         Vous allez acheter le NFT <span className="nft_title">{title}</span>
-                    </p>
+                    </a>
 
                     <div className="divider"></div>
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import { useParams } from "react-router-dom";
 import {nft_data} from "../../assets/data/data.js";
@@ -6,13 +6,15 @@ import {nft_data} from "../../assets/data/data.js";
 import "../../css/pages/NftDetails.css";
 
 import Header from "../components/Header";
-import buyNft from "../functions/buyNft";
 import lion_logo from "../../assets/lazy_lion.png";
+import PopIn from "../components/PopIn";
 
 export default function NftDetails() {
     const { id } = useParams();
 
     const targetNft = nft_data.find((item) => item.id === id);
+
+    const [showPopIn, setShowPopIn] = useState(false);
 
     return (
         <div>
@@ -46,10 +48,12 @@ export default function NftDetails() {
                         <p className="targetNft_description">{targetNft.description}</p>
                         <button
                             className="targetNft_buy_btn"
-                            onClick={() => buyNft()}
+                            onClick={() => setShowPopIn(true)}
                         >
                             Acheter
                         </button>
+
+                        {showPopIn && <PopIn setShowPopIn={setShowPopIn} metadata={targetNft} />}
 
                     </div>
                 </div>
