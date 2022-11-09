@@ -147,3 +147,38 @@
         border-radius: 12px !important;
     }
 }
+
+
+.success_container, .failure_container{
+    width: 360px;
+    height: 200px;
+    transition: ease-out 0.5s;
+}
+
+.success_inner, .failure_inner{
+    height: 70%;
+    transform: translate(0, -65%);
+    transition: ease-out 0.5s;
+}
+
+.success{
+    color: #00c400;
+    font-size: 1.3rem !important;
+}
+
+.failure{
+    color: #c40000;
+    font-size: 1.3rem !important;
+}
+
+.success_inner .last_buy_btn{
+    margin-top: -1rem !important;
+    background-color: rgba(0, 196, 0, 0.63);
+    font-weight: 500;
+}
+
+.failure_inner .last_buy_btn{
+    margin-top: -1rem !important;
+    background-color: rgba(196, 0, 0, 0.63);
+    font-weight: 500;
+}
