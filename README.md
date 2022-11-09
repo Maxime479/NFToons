@@ -49,3 +49,4 @@ Rendez-vous simplement sur le site [NFToons](https://nftoons.web.app).
 ## 4. Pourquoi la blockchain est importante sur ce projet ?
 
 Le contrat est stocké dans le [fichier Solidity](src/App.js).
+La blockchain est importante pour ce projet car elle permet controler la vente des NFTs. En effet, le contrat permet de vérifier que l'acheteur a bien payé le prix du NFT et que le vendeur a bien reçu le paiement. De plus, le contrat permet de vérifier que le NFT n'a pas déjà été vendu. Enfin, le contrat permet de vérifier que le vendeur est bien le propriétaire du NFT. Il donne aussi au owner du contract un controle sur la possibilité de vente des NFTs (Enable la vente). 
