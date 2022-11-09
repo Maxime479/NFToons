@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
-import "../css/PopIn.css";
-import buyNft from "./functions/buyNft";
+import "../../css/components/PopIn.css";
+import buyNft from "../functions/buyNft";
 
 const PopIn = ({ setShowPopIn, metadata }) => {
 

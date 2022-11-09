@@ -111,19 +111,35 @@
 
 @media only screen and (max-width: 992px) {
     .popin_container {
-        width: 300px;
-        height: auto;
+        width: 80%;
+        height: content-box !important;
     }
 
-    .popin_container h6 {
+    .inner_container h6 {
         font-size: 0.9rem;
     }
-    .popin_container p {
-        font-size: 0.8rem;
+
+    .nft_title{
+        font-size: 1.2rem !important;
+    }
+
+    .inner_container p {
+        font-size: 1.1rem;
         margin-bottom: 0;
     }
 
+    .inner_container p:not(.info){
+        font-size: 1rem;
+    }
+
     .nft_price {
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
+    }
+
+    .last_buy_btn{
+        aspect-ratio: 8 !important;
+        font-size: 1.2rem !important;
+        font-weight: 400 !important;
+        border-radius: 12px !important;
     }
 }

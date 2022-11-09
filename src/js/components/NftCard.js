@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../../css/components/NftCard.css";
 import lion_logo from '../../assets/lazy_lion.png';
-import PopIn from "../PopIn";
+import PopIn from "./PopIn";
 
 
 const NftCard = (props) => {
