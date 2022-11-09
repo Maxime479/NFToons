@@ -18,10 +18,15 @@ export default async function buyNft(gasFee, metadata) {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = await provider.getSigner();
         const erc271 = new ethers.Contract(contractAddress, ABI, signer);
-        console.log(erc271);
-        erc271.safeMint(id);
+        if(erc271.nftvendu[id] == false) {
+            erc271.safeMint(id);
+            document.getElementById(id).innerHTML = "NFT "+ title +" ("+ id + ") acheté !";
+        } else {
+            document.getElementById(id).innerHTML = "Déja vendu !";
+        }
 
-        document.getElementById(id).innerHTML = "NFT "+ title +" ("+ id + ") acheté !";
+        console.log(erc271);
+        
     }
     catch (e) {
         console.log(e);
