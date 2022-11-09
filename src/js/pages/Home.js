@@ -4,14 +4,10 @@ import {nft_data} from "../../assets/data/data.js";
 import React, {useState} from "react";
 import NftCard from "../components/NftCard";
 import lion_logo from "../../assets/lazy_lion_base.png";
-import connectWallet from "../functions/connectWallet";
 import Header from "../components/Header";
 
 
 export default function Home({...props}) {
-
-    const navigate = props.nav
-
 
     const [data, setData] = useState(nft_data);
 
