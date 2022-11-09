@@ -187,3 +187,24 @@
         width: 8.3em !important;
     }
 }
+
+@media only screen and (max-height: 930px) {
+
+    .creator_info p {
+        font-size: 0.9rem !important;
+        font-weight: 500 !important;
+    }
+
+}
+@media only screen and (max-height: 714px) {
+
+    .creator_info h6 {
+        font-size: 0.7rem !important;
+    }
+
+    .creator_info p {
+        font-size: 0.8rem !important;
+        font-weight: 500 !important;
+    }
+
+}
