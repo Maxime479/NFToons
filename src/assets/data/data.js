@@ -38,7 +38,7 @@ export const nft_data = [
         imgUrl: img01,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.026,
         attributes: [
             {
                 trait_type: "Background",
@@ -94,7 +94,7 @@ export const nft_data = [
         imgUrl: img03,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.019,
         attributes: [
             {
                 trait_type: "Background",
@@ -122,7 +122,7 @@ export const nft_data = [
         imgUrl: img04,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.021,
         attributes: [
             {
                 trait_type: "Background",
@@ -150,7 +150,7 @@ export const nft_data = [
         imgUrl: img05,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.043,
         attributes: [
             {
                 trait_type: "Background",
@@ -178,7 +178,7 @@ export const nft_data = [
         imgUrl: img06,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.009,
         attributes: [
             {
                 trait_type: "Background",
@@ -206,7 +206,7 @@ export const nft_data = [
         imgUrl: img07,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.01,
         attributes: [
             {
                 trait_type: "Background",
@@ -234,7 +234,7 @@ export const nft_data = [
         imgUrl: img08,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.17,
         attributes: [
             {
                 trait_type: "Background",
@@ -262,7 +262,7 @@ export const nft_data = [
         imgUrl: img09,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.038,
         attributes: [
             {
                 trait_type: "Background",
@@ -290,7 +290,7 @@ export const nft_data = [
         imgUrl: img10,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.043,
         attributes: [
             {
                 trait_type: "Background",
@@ -318,7 +318,7 @@ export const nft_data = [
         imgUrl: img11,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.098,
         attributes: [
             {
                 trait_type: "Background",
@@ -346,7 +346,7 @@ export const nft_data = [
         imgUrl: img12,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.056,
         attributes: [
             {
                 trait_type: "Background",
@@ -374,7 +374,7 @@ export const nft_data = [
         imgUrl: img13,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.052,
         attributes: [
             {
                 trait_type: "Background",
@@ -402,7 +402,7 @@ export const nft_data = [
         imgUrl: img14,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.029,
         attributes: [
             {
                 trait_type: "Background",
@@ -430,7 +430,7 @@ export const nft_data = [
         imgUrl: img15,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.033,
         attributes: [
             {
                 trait_type: "Background",
@@ -458,7 +458,7 @@ export const nft_data = [
         imgUrl: img16,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.076,
         attributes: [
             {
                 trait_type: "Background",
@@ -486,7 +486,7 @@ export const nft_data = [
         imgUrl: img17,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.071,
         attributes: [
             {
                 trait_type: "Background",
@@ -514,7 +514,7 @@ export const nft_data = [
         imgUrl: img18,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.011,
         attributes: [
             {
                 trait_type: "Background",
@@ -570,7 +570,7 @@ export const nft_data = [
         imgUrl: img20,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.016,
         attributes: [
             {
                 trait_type: "Background",
@@ -598,7 +598,7 @@ export const nft_data = [
         imgUrl: img21,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.024,
         attributes: [
             {
                 trait_type: "Background",
@@ -626,7 +626,7 @@ export const nft_data = [
         imgUrl: img22,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.08,
         attributes: [
             {
                 trait_type: "Background",
@@ -654,7 +654,7 @@ export const nft_data = [
         imgUrl: img23,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.028,
         attributes: [
             {
                 trait_type: "Background",
@@ -682,7 +682,7 @@ export const nft_data = [
         imgUrl: img24,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.023,
         attributes: [
             {
                 trait_type: "Background",
@@ -710,7 +710,7 @@ export const nft_data = [
         imgUrl: img25,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.043,
         attributes: [
             {
                 trait_type: "Background",
@@ -738,7 +738,7 @@ export const nft_data = [
         imgUrl: img26,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.026,
         attributes: [
             {
                 trait_type: "Background",
@@ -766,7 +766,7 @@ export const nft_data = [
         imgUrl: img27,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.067,
         attributes: [
             {
                 trait_type: "Background",
@@ -794,7 +794,7 @@ export const nft_data = [
         imgUrl: img28,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.069,
         attributes: [
             {
                 trait_type: "Background",
@@ -822,7 +822,7 @@ export const nft_data = [
         imgUrl: img29,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.04,
         attributes: [
             {
                 trait_type: "Background",
@@ -850,7 +850,7 @@ export const nft_data = [
         imgUrl: img30,
         creator: "Lion Team",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
-        price: 0.013,
+        price: 0.092,
         attributes: [
             {
                 trait_type: "Background",

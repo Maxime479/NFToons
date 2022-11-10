@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3188588f.css",
-    "main.js": "/static/js/main.e8043eea.js",
+    "main.js": "/static/js/main.306ca514.js",
     "static/media/lazy_lion.png": "/static/media/lazy_lion.430d1e6f645fb3069746.png",
     "static/media/lazy_lion_base.png": "/static/media/lazy_lion_base.65b8606e6d0d5b02b159.png",
     "static/media/09.png": "/static/media/09.7e0fd0664e6160ae0809.png",
@@ -36,10 +36,10 @@
     "static/media/22.png": "/static/media/22.49de384965320912b4ba.png",
     "index.html": "/index.html",
     "main.3188588f.css.map": "/static/css/main.3188588f.css.map",
-    "main.e8043eea.js.map": "/static/js/main.e8043eea.js.map"
+    "main.306ca514.js.map": "/static/js/main.306ca514.js.map"
   },
   "entrypoints": [
     "static/css/main.3188588f.css",
-    "static/js/main.e8043eea.js"
+    "static/js/main.306ca514.js"
   ]
 }
