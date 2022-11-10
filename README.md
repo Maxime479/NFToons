@@ -39,8 +39,11 @@ Rendez-vous simplement sur le site [NFToons](https://nftoons.web.app).
 - Un CTA `Connecter mon Wallet` permet de lier son compte Metamask
 - En appuyant sur le bouton `Acheter`, cela ouvre une popin qui résume la transaction à effectuer
 	- En appuyant sur `Acheter` à l'intérieur de la popin, cela va effectuer la transaction
+		- Si le NFT est déjà vendu (1er NFT Happy Ram), la popin l'indiquera
+		- Si la transaction échoue, la pop in changera détat en rouge
+		- Si la transaction réussie, la popin changera d'état en vert
 	- Il est possible de fermer la popin en cliquant à l'extérieur de celle-ci 
-- En cliquant sur le le nom d'un NFT cela ouvre sa vue détaillée 
+- En cliquant sur le nom d'un NFT cela ouvre sa vue détaillée 
 > Le site est entièrement **responsive**, pensez à le tester sur mobile :wink: 
  
 
@@ -50,3 +53,4 @@ Rendez-vous simplement sur le site [NFToons](https://nftoons.web.app).
 
 Le contrat est stocké dans le [fichier Solidity](src/App.js).
 La blockchain est importante pour ce projet car elle permet controler la vente des NFTs. En effet, le contrat permet de vérifier que l'acheteur a bien payé le prix du NFT et que le vendeur a bien reçu le paiement. De plus, le contrat permet de vérifier que le NFT n'a pas déjà été vendu. Enfin, le contrat permet de vérifier que le vendeur est bien le propriétaire du NFT. Il donne aussi au owner du contract un controle sur la possibilité de vente des NFTs (Enable la vente). 
+Ventre ses oeuvres d'art via des Nft assure l'authenticité et l'unicité de l'oeuvre. Leur vente devient donc plus sécurisée et plus fiable, ne pouvant impactée par des facteurs humains.
