@@ -7,12 +7,9 @@ import ABI from "../../ABI.json";
 
 export default async function buyNft(metadata, setTransactionSuccess, setFailureMsg) {
 
-    const gasFee = 0.01
-
     try {
-        const { title, imgUrl, price, id } = metadata;
-        const contractAddress = "0x304EB9444f0de898a59a9231Ee5396FC5bf84396";
-        const creatoradress = "0x51B453BCdDEE5d5A0C964AE946161175ec0E2EA2";
+        const {price, id } = metadata;
+        const contractAddress = "0x223e8E71955cB799C195E840577c8D552BBad57A";
 
         let validation = 0;
 
@@ -23,17 +20,23 @@ export default async function buyNft(metadata, setTransactionSuccess, setFailure
         const signer = await provider.getSigner();
         const erc20 = new ethers.Contract(contractAddress, ABI, signer);
         const gasPrice = await web3.eth.getGasPrice()
-        console.log({gasPrice: gasPrice})
+
         erc20.nftvendu(id).then((result) => {
-            console.log(result)
             if (result === true) {
                 validation = false;
                 setFailureMsg("Ce NFT est déjà vendu")
                 setTransactionSuccess(false)//Vérification si le nft est déjà vendu
-                // document.getElementById(id).innerHTML = "Déja vendu !";
+
             } else {
-                erc20.transferNFT(id, Web3.utils.toWei(String(0, "ethers"))).then((result) => { //Difficulté pour envoyer de l'argent (price) (overflow/underflow/transfer amount exceeds balance)
+                console.log("NFT pas encore vendu")
+
+                let priceInWei = Web3.utils.toWei(price.toString(), "ether")
+                priceInWei = "0"
+
+                erc20.transferNFT(id, priceInWei).then((result) => { //Difficulté pour envoyer de l'argent (price) (overflow/underflow/transfer amount exceeds balance)
+                    console.log("result");
                     console.log(result);
+                    console.log("result");
                     result.wait().then((valide) => {
                         console.log(valide);
                         if (valide.confirmations === 1) {
@@ -42,19 +45,15 @@ export default async function buyNft(metadata, setTransactionSuccess, setFailure
                             setFailureMsg("La transaction a échoué")
                             setTransactionSuccess(false)
                         }
-                        // console.log(validation);
+
                     })
                 }).catch((e) => {
                     console.log(e);
                 })
-                console.log(Web3.utils.toWei(String(0.013, "ethers")));
-                document.getElementById(id).innerHTML = "NFT " + title + " (" + id + ") acheté !";
 
             }
 
         })
-
-        console.log(erc20);
 
     }
     catch (e) {

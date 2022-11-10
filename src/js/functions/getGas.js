@@ -11,7 +11,7 @@ export default async function getGas(setGasFee) {
 
         const gasPrice = await web3.eth.getGasPrice().then((result) => {
             const gasFee = Web3.utils.fromWei(result, "micro");
-            setGasFee(Number(gasFee))
+            setGasFee(Number(gasFee)*1.9)
         })
 
     }

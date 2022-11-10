@@ -17,6 +17,26 @@ const PopIn = ({ setShowPopIn, metadata }) => {
         }
     })
 
+    const [buttonText, setButtonText] = useState("Acheter")
+    const [buyLoading, setBuyLoading] = useState(false)
+
+    useEffect(() => {
+        if(buyLoading === true){
+
+            setTimeout(() => {
+                setButtonText("Achat en cours.");
+            }, 1000);
+            setTimeout(() => {
+                setButtonText("Achat en cours..");
+            }, 2000);
+            setTimeout(() => {
+                setButtonText("Achat en cours...");
+            }, 3000);
+
+        }
+
+    })
+
 
 
 
@@ -89,11 +109,12 @@ const PopIn = ({ setShowPopIn, metadata }) => {
 
                         <button
                             className="buy_btn last_buy_btn"
-                            onClick={() => buyNft(metadata, setTransactionSuccess, setFailureMsg)}
-                            // onClick={() => setTransactionSuccess(true)}
-                            // onClick={() => setShowBasePopin(false)}
+                            onClick={() => {
+                                buyNft(metadata, setTransactionSuccess, setFailureMsg)
+                                setBuyLoading(true)
+                            }}
                         >
-                            Acheter
+                            {buttonText}
                         </button>
 
 
