@@ -1,17 +1,29 @@
-import React, { useEffect } from "react";
+import React, {useEffect, useState} from "react";
 
 import "../../css/components/PopIn.css";
 import buyNft from "../functions/buyNft";
+import getGas from "../functions/getGas";
 
 const PopIn = ({ setShowPopIn, metadata }) => {
 
     const { title, imgUrl, price, id } = metadata;
 
-    const gasFee = 0.01;
+
+    //Gas etimation
+    const [gasFee, setGasFee] = useState(0)
+    useEffect(() => {
+        if(gasFee === 0){
+            getGas(setGasFee)
+        }
+    })
+
+
+
 
     //case gestion after buy
-    const [showBasePopin, setShowBasePopin] = React.useState(true);
-    const [transactionSuccess, setTransactionSuccess] = React.useState(null);
+    const [showBasePopin, setShowBasePopin] = useState(true);
+    const [transactionSuccess, setTransactionSuccess] = useState(null);
+    const [failureMsg, setFailureMsg] = useState(null);
     useEffect(() => {
         if(transactionSuccess === true || transactionSuccess === false){
             setTimeout(() => {
@@ -21,8 +33,8 @@ const PopIn = ({ setShowPopIn, metadata }) => {
     })
 
     //target user clicks to close the Popin
-    const [bgClicked, setBgClicked] = React.useState(false);
-    const [popInClicked, setPopInClicked] = React.useState(false);
+    const [bgClicked, setBgClicked] = useState(false);
+    const [popInClicked, setPopInClicked] = useState(false);
     useEffect(() => {
         if (bgClicked) {
             if (!popInClicked) {
@@ -70,16 +82,16 @@ const PopIn = ({ setShowPopIn, metadata }) => {
 
                         <div>
                             <p>Coût total de la transaction</p>
-                            <span className="nft_price">{price + gasFee} GETH</span>
+                            <span className="nft_price">
+                                {(price + gasFee).toString().slice(0, 9)} GETH</span>
                         </div>
 
 
                         <button
                             className="buy_btn last_buy_btn"
-                            // onClick={() => buyNft(gasFee, metadata, setTransactionSuccess)}
-                            onClick={() => setTransactionSuccess(true)}
+                            onClick={() => buyNft(metadata, setTransactionSuccess, setFailureMsg)}
+                            // onClick={() => setTransactionSuccess(true)}
                             // onClick={() => setShowBasePopin(false)}
-                            id={id}
                         >
                             Acheter
                         </button>
@@ -145,7 +157,7 @@ const PopIn = ({ setShowPopIn, metadata }) => {
 
                         <h5 className="failure">Echec...</h5>
                         <a className="info">
-                            La transaction a échoué
+                            {failureMsg}
                         </a>
 
 

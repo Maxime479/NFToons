@@ -1,11 +1,13 @@
 
-import React, { useState } from "react";
+import React from "react";
 import Web3 from "web3";
 import { ethers } from "ethers";
 import ABI from "../../ABI.json";
 
 
-export default async function buyNft(gasFee, metadata) {
+export default async function buyNft(metadata, setTransactionSuccess, setFailureMsg) {
+
+    const gasFee = 0.01
 
     try {
         const { title, imgUrl, price, id } = metadata;
@@ -20,24 +22,27 @@ export default async function buyNft(gasFee, metadata) {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = await provider.getSigner();
         const erc20 = new ethers.Contract(contractAddress, ABI, signer);
-        const gasPrice = await web3.eth.getGasPrice();
-        console.log(gasPrice)
+        const gasPrice = await web3.eth.getGasPrice()
+        console.log({gasPrice: gasPrice})
         erc20.nftvendu(id).then((result) => {
             console.log(result)
             if (result === true) {
-                validation = false;                         //Vérification si le nft est déjà vendu
-                document.getElementById(id).innerHTML = "Déja vendu !";
+                validation = false;
+                setFailureMsg("Ce NFT est déjà vendu")
+                setTransactionSuccess(false)//Vérification si le nft est déjà vendu
+                // document.getElementById(id).innerHTML = "Déja vendu !";
             } else {
                 erc20.transferNFT(id, Web3.utils.toWei(String(0, "ethers"))).then((result) => { //Difficulté pour envoyer de l'argent (price) (overflow/underflow/transfer amount exceeds balance)
                     console.log(result);
                     result.wait().then((valide) => {
                         console.log(valide);
                         if (valide.confirmations === 1) {
-                            validation = true;                  //Verification de la transaction
+                            setTransactionSuccess(true)              //Verification de la transaction
                         } else {
-                            validation = false;
+                            setFailureMsg("La transaction a échoué")
+                            setTransactionSuccess(false)
                         }
-                        console.log(validation);
+                        // console.log(validation);
                     })
                 }).catch((e) => {
                     console.log(e);

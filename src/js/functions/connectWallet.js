@@ -10,8 +10,8 @@ export default async function connectWallet() {
             ethBalance: null,
             networkId: null
         };
-    
-    console.log("ok");
+
+    console.log("wallet connected");
     try {
         const web3 = new Web3(Web3.givenProvider);
         state.web3 = web3;

@@ -4,7 +4,6 @@ import lion_logo from "../../assets/lazy_lion_base.png";
 import connectWallet from "../functions/connectWallet";
 import '../../css/components/Header.css';
 import { Link } from "react-router-dom";
-import Web3 from "web3";
 
 
 export default function Header() {
